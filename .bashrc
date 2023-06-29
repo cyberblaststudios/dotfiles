@@ -5,6 +5,7 @@ export LS_COLORS
 # aliases
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
+alias ll='ls --color=auto -la'
 
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 source ~/.prompt/git-prompt.sh

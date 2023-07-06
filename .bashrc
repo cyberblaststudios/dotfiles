@@ -6,6 +6,7 @@ export LS_COLORS
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 alias ll='ls --color=auto -la'
+alias untar='tar xvzf'
 
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 source ~/.prompt/git-prompt.sh
@@ -22,3 +23,7 @@ set_prompt(){
 }
 
 PROMPT_COMMAND=set_prompt
+
+# fnm
+export PATH="/home/jaden/.local/share/fnm:$PATH"
+eval "`fnm env`"
